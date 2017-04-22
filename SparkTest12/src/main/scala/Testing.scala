@@ -17,9 +17,8 @@ object Testing {
 
     parquet_file.printSchema()
     
-    
-
-    //parquet_file.write.format("csv").save("hdfs://localhost:9000/scala/out-parq12")
+   
+    parquet_file.write.format("csv").save("hdfs://localhost:9000/scala/out-parq14")
     
     
 
