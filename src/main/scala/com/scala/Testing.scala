@@ -33,6 +33,7 @@ object Testing {
     val obj = new Sum()
     
     obj.calculate(10, 20)
+    println(obj.sum123(1,2))
     
     
 

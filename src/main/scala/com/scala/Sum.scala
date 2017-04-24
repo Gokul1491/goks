@@ -17,5 +17,9 @@ class Sum {
 
   }
   
+  def sum123 (x:Int, y: Int) : Int {
+   return  x+y
+  }
+  
 
 }
