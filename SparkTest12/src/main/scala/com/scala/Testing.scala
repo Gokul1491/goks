@@ -34,7 +34,9 @@ object Testing {
     
     obj.calculate(10, 20)
     
+    val s = Set(1,2,3,4,5)
     
+    println (s)
 
   }
 }
