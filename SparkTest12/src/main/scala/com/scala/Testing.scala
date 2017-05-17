@@ -3,6 +3,7 @@ package com.scala
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
+import com.scala.Fact
 
 
 
@@ -39,6 +40,11 @@ object Testing {
     println (s)
     
     println("Gokul Raj learnt Git!!")
+    
+    val f = new Fact()
+    
+    
+    println("The Factorial value:::" + f.factorial(5))
 
   }
 }
