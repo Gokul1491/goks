@@ -44,8 +44,9 @@ object Testing {
     val f = new Fact()
     
     
-    println("The Factorial value:::" + f.factorial(5))
-    println(f.fibo(10))
+    println("The Factorial value:::" + f.factorial(args(0).toInt))
+    println(f.fibo(args(0).toInt))
+    
 
   }
 }
