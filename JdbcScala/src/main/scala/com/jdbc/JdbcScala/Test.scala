@@ -1,9 +1,5 @@
 package com.jdbc.JdbcScala
 
-import java.sql.DriverManager
-import java.sql.Connection
-import com.mysql.jdbc.Driver;
-import java.util.logging.Logger;
 import org.slf4j.LoggerFactory
 
 object Test {
@@ -30,6 +26,8 @@ object Test {
       }
       connection.close()
       logger.info("Exiting  the main function session!!")
+      
+      println("Saving your task in remote")
       
     } 
     catch 
